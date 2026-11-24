@@ -2,6 +2,12 @@
 
 The phone holds 1% for four hours, then denies its own death
 and dies mid-sentence.
+
+Verified entry (127 chars, 129 bytes, no trailing newline):
+  I held 1% for four hours, 312 notifications, and one very long voice note from your mother at 3 a.m. I am not dying. I am just—
+entry.txt sha256: 40a7ffe3732a81f6b00144ddd85fff9a3441076a1e6de51fff2c109d8a48279b
+Verified byte-identical across 3 fresh runs + 1 clean-env run
+(env -i python3 -P -s main.py), compared with cmp.
 """
 
 import os
